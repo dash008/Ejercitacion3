@@ -1,21 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<title>Ejercicio 2</title>
+	<title>Ejercitacion 3 | Home</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
 </head>
 <body>
-	
+	<header>
+		<h1>EJERCITACION 3</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="punto1.html">PUNTO 1</a></li>
+			<li><a href="punto2.html">PUNTO 2</a></li>
+			<li><a href="punto3.html">PUNTO 3</a></li>
+		</ul>
+	</nav>
+	<section>
+	<p>
 	<script type="text/javascript">
 		var num_bufan = parseInt(window.prompt("Digite el numero de bufandas que piensa tejer",""));
 		var num_paq =  Math.ceil((num_bufan * 150) / 5000);
 		var num_gramos_sobra =5000*num_paq - num_bufan*150
-
-		if(num_paq < 1){
-			num_paq = 1;
-		}
-		 document.write("Si piensa tejer " + num_bufan +" bufandas, el numero de paquetes que debe comprar es: "+num_paq +"<br>"+"La cantidad de lana que sobra en gramos es "+num_gramos_sobra);
+		
+		document.write("Si piensa tejer " + num_bufan +" bufandas, el numero de paquetes que debe comprar es: "+num_paq +"<br>"+"La cantidad de lana que sobra en gramos es "+num_gramos_sobra);
 	</script>
-	
+	</p>
+	</section>
 
 </body>
 </html>
